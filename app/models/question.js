@@ -5,5 +5,5 @@ export default DS.Model.extend({
   user: DS.attr(),
   body: DS.attr(),
   timestamp: DS.attr(),
-  comments: DS.hasmany('comment', {async: true})
+  comments: DS.hasMany('comment', {async: true})
 });
