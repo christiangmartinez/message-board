@@ -3,18 +3,15 @@
     "title": "What is ember?",
     "user": "xXUs3rXx",
     "body": "I'm not entirely sure",
-    "timestamp": "now",
-    "comments": "0,1"
+    "timestamp": "now"
     }],
   "comments": [{
     "commentUser": "1337us3r",
     "commentBody": "It's a javascript framework",
-    "commentTimestamp": "now",
-    "question": "0"
+    "commentTimestamp": "now"
     }, {
     "commentUser": "C++4ever",
     "commentBody": "Learn a real language :3" ,
-    "commentTimestamp": "now",
-    "question": "0"
+    "commentTimestamp": "now"
     }]
 }
