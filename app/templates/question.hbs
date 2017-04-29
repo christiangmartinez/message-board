@@ -7,3 +7,6 @@
     </div>
   </div>
 </div>
+{{#each model.comments as |comment|}}
+  {{comment-tile comment=comment}}
+{{/each}}

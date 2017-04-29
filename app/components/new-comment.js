@@ -11,8 +11,8 @@ export default Ember.Component.extend({
         commentTimestamp: (new Date()).toJSON(),
         question: this.get('question')
       };
-
-      this.sendAction('saveComment', params)
+      this.set('addingComment', false);
+      this.sendAction('saveComment', params);
     },
     showForm: function(){
       this.set('addingComment', true);
