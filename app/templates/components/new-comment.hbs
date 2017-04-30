@@ -2,14 +2,14 @@
   <div class="row">
   <div class="col-md-6 col-md-offset-3">
     <h4>Enter Comment</h4>
-    <form>
+    <form {{action 'saveComment' on="submit"}}>
       <div class="form-group">
         <label for="commentUser">Enter username</label>
-        {{input value=commentUser id="commentUser" class="form-control"}}
+        {{input value=commentUser id="commentUser" required="required" class="form-control"}}
         <label for="commentBody">Enter comment</label>
-        {{input value=commentBody id="commentBody" class="form-control"}}
+        {{input value=commentBody id="commentBody" required="required" class="form-control"}}
       </div>
-      <button class="btn btn-primary" {{action 'saveComment'}}>Submit</button>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
 </div>

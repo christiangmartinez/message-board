@@ -1,7 +1,12 @@
 body {
-  background: grey;
+  background-image: url(https://static.wixstatic.com/media/08f80d_d2d94049c72f4b228d6912a4694c26e6~mv2.png_srz_980_983_85_22_0.50_1.20_0.00_png_srz);
+  background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
 }
 
 .well {
   background-color: white;
+  opacity: .9;
 }
