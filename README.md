@@ -1,4 +1,10 @@
-# Message Board
+# Message Board - Latinx Coder Network
+#### _Epicodus Friday Project, 4-28-2017_
+This Latinx Coder Network message board is a web app in the vein of [Stack Overflow](http://stackoverflow.com/) or [Ask Reddit](https://www.reddit.com/r/AskReddit/). Users will have the ability to enter a question for other users to answer. Questions are listed on the home page in most to least recent.
+
+**The goal of having a a latinx specific programming question and answer website is to make tech and programming more visible and accessible to Latinx people.**
+
+![alt text](http://swarthmorephoenix.com/wp-content/uploads/2015/11/300773.jpg)
 
 ## Prerequisites
 
@@ -12,41 +18,17 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd message-board`
-* `npm install`
-* `bower install`
+* Clone this repository
+* Make sure to navigate to the 'message-board' file in your terminal
+* Run the command `npm install`
+*  Run the command `bower install`
 
 ## Running / Development
 
-* `ember serve`
+* Type `ember serve` into your terminal
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
 ## Planning
 
