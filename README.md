@@ -2,7 +2,7 @@
 #### _Epicodus Friday Project, 4-28-2017_
 This Latinx Coder Network message board is a web app in the vein of [Stack Overflow](http://stackoverflow.com/) or [Ask Reddit](https://www.reddit.com/r/AskReddit/). Users will have the ability to enter a question for other users to answer. Questions are ordered on the home page from most to least recent. Users can comment on existing questions by navigating to that specific question's page.
 
-**The goal of having a a latinx specific programming question and answer website is to make tech and programming more visible and accessible to Latinx people.**
+**The goal of having a a latinx specific programming question and answer website is to make tech and programming more visible and accessible to [latinx](http://www.complex.com/life/2016/04/latinx/) people.**
 
 ![alt text](http://swarthmorephoenix.com/wp-content/uploads/2015/11/300773.jpg)
 
