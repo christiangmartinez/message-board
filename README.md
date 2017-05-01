@@ -28,8 +28,6 @@ You will need the following things properly installed on your computer.
 * Type `ember serve` into your terminal
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-## Further Reading / Useful Links
-
 ## Planning
 
 ###### Configuration/Dependencies
