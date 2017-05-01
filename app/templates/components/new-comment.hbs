@@ -5,9 +5,9 @@
     <form {{action 'saveComment' on="submit"}}>
       <div class="form-group">
         <label for="commentUser">Enter username</label>
-        {{input value=commentUser id="commentUser" required="required" class="form-control"}}
+        {{input value=commentUser id="commentUser" required=true class="form-control" placeholder=""}}
         <label for="commentBody">Enter comment</label>
-        {{input value=commentBody id="commentBody" required="required" class="form-control"}}
+        {{input value=commentBody id="commentBody" required=true class="form-control" placeholder=""}}
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>

@@ -24,3 +24,8 @@ body {
 .about {
   font-size: 20px;
 }
+
+hr {
+  color: grey;
+  height: 3px;
+}

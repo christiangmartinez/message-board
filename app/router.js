@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('question', {path: '/question/:question_id'});
   this.route('question-form');
   this.route('about');
+  this.route('submitted');
 });
 
 export default Router;
