@@ -4,7 +4,9 @@ The Latinx Coder Network message board is a web app in the vein of [Stack Overfl
 
 **The goal of having a a latinx specific programming question and answer website is to make tech and programming more visible and accessible to [latinx](http://www.complex.com/life/2016/04/latinx/) people.**
 
-![alt text](http://swarthmorephoenix.com/wp-content/uploads/2015/11/300773.jpg)
+![alt text](img/index.png)
+
+![alt text](img/question.png)
 
 ## Prerequisites
 
@@ -27,40 +29,3 @@ You will need the following things properly installed on your computer.
 
 * Type `ember serve` into your terminal
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Planning
-
-###### Configuration/Dependencies
-
-  * Ember default dependencies. Defined in package.json
-
-
-###### Specifications
-
-| Behavior | Input |  Output |
-| -------- | ------: | -------: |
-| Application will save user input  as a question object with the parameters of 'title', 'user', and 'body'.| "What is ember?", "user1", "I'm not sure what it is" | title: "What is ember?", user: "user1", body: "I'm not sure what it is"|
-| Application will assign a timestamp to the user input | "What is ember?", "user1", "I'm not sure what it is" | timestamp: Fri April 28 2017 01:17:07 |
-| Application will assign an ID to the user input | "What is ember?", "user1", "I'm not sure what it is" | Id: 0 |
-| Application will save user input comments in a one-to-many relationship with the ID of the corresponding question being a parameter of the comment | "A javascript framework" | question ID: 0 |
-
-###### Configuration
-
-  * Template/html page for index.
-  * Template/html page each question.
-  * A list of all question displayed on index.
-  * Comments for corresponding question displayed on that questions individual page.
-
-###### UX/UI
-
-  * Include bootstrap
-  * Each question and comment in individual centered well
-  * Navbar on each page with links to home and page with form for new question.
-
-###### Polish
-
-  * Revisit README to revise and add any needed clarification.
-  * add full CRUD to questions and comments.
-  * Display questions and comments form most to least recent.
-  * Add up/down vote functionality to comments.
-  * Add option to sort by other criteria.
